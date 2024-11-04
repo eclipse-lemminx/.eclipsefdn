@@ -27,8 +27,6 @@ orgs.newOrg('eclipse-lemminx') {
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "XML Language Server",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "java",
         "language-server-protocol",
@@ -98,8 +96,6 @@ orgs.newOrg('eclipse-lemminx') {
       dependabot_security_updates_enabled: true,
       description: "lemminx-maven",
       has_discussions: true,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
