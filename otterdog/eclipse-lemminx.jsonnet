@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-lemminx') {
+orgs.newOrg('technology.lemminx', 'eclipse-lemminx') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
